@@ -1,9 +1,12 @@
 import "./App.scss";
+import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header"
 
 const App = () =>{
   return(
     <div className="App">
-      <h1>Welcome React</h1>
+      <Navbar/>
+      <Header/>
     </div>
   )
 }
